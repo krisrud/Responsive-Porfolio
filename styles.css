@@ -1,0 +1,183 @@
+body {
+	font-family: 'Mina', sans-serif;
+	margin: 0 10px;
+    padding: 0;
+}
+
+h2 {
+	color: #7d97ad;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+/* 
+*
+*
+Header 
+*
+*
+*/
+.header_inner {
+	width: 100%;
+}
+
+.header_logo {
+	display: inline-block;
+	float: left;
+}
+
+.header_title {
+	font-size: 0.75em;
+	color: #2d3c49;
+	text-transform: uppercase;
+	text-align: right;
+	vertical-align: top;
+	line-height: 0.7;
+	display: inline;
+	float: right;
+}
+	
+#logopic {
+	height: 80px;
+}
+	
+/*
+*
+*
+Main
+*
+*
+*/
+
+.main_picture {
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
+/*
+*
+*
+Projects section
+*
+*
+*/
+
+.content {
+	margin-left: auto;
+    margin-right: auto;
+}
+	
+.project_thumbnail {
+	width: 50%;
+	display: inline-block;
+}
+	
+.project {
+	width: 100%;
+	display: block;
+}
+
+.text {
+	width: 50%;
+	line-height: 0.7;
+	text-align: center;
+	vertical-align: center;
+	float: right;
+}
+	
+.featured_work {
+	display: block;
+}
+	
+/*
+*
+*
+Responsive patterns
+*
+*
+*/
+
+@media screen and (min-width: 400px) {
+	.header_title {
+		font-size: 1em;
+	}
+}
+	
+@media screen and (min-width: 560px) {
+	.header_title {
+	font-size: 1.5em;
+}
+	
+	#logopic {
+	height: 85px;
+}
+
+	.project {
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (min-width: 650px) {
+	.header_title {
+		font-size: 1.75em;
+}
+}
+
+@media screen and (min-width: 800px) {
+	header {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	#logopic {
+	height: 150px;
+}
+
+	.header_title {
+	font-size: 2em;
+}
+
+
+	.featured_work {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+	.project {
+	width: 30%;
+	display: inline;
+}
+
+	.project_thumbnail {
+	width: 100%;
+}
+
+	.text {
+	width: 100%;
+}
+	
+	.content {
+	display: flex;
+	width: 100%;
+}
+
+	.one {
+	margin-left: 0;
+}
+
+	.three {
+	margin-right: 0;
+}
+}
